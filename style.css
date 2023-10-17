@@ -1,0 +1,60 @@
+/*p {Elemento
+    color: red;
+    font-size: 100px;
+}*/
+
+.parrafo {/*Clase*/
+    color: blue;
+}
+
+#texto {/*Id*/
+    color: magenta;
+    font-size: 50px;
+}
+.main-nav{
+    margin-top: 10px;
+    list-style: none;/*De este manera le podemos quitar los bullets que vienen por defecto en los items de una lista*/
+    padding-left: 0;
+    background-color: #13a4a3;
+}
+.main-nav__item{
+    display: inline-block;/*Originalmente los elementos de una lista estan organizados verticalmente pero con esta propiedad los podemos organizar de manera horizontal*/
+}
+.main-nav__item a{/*Todos los elementos a dentro de esa clase se les va a asignar el estilo que definamos*/
+    color: white;
+    padding: 5px;
+    border-radius: 2px;/*con esto hacemos que el espacio de la etiqueta a se vea con bordes circulares*/
+    text-decoration: none;/*Normalmente los links vienen resaltados con una línea, con esta propiedad la quitamos*/
+    /*background-color: red;*/
+}
+
+/*Esto es una SEUDACLASE*/
+.main-nav__item a:hover{/*Lo que hace es que, el color del texto va a cambiar cuando el mouse esté sobre el link*/
+    color: blue;
+}
+.main-nav__item a:active{/*Mientras se le esté dando click al link, va a cambiar al color rojo*/
+    color: red;
+}
+
+/*Esto es un SEUDOELEMENTO*/
+.main-nav__item a::after{/*Lo que hace es que después del elemento va a agregar el contenido que le indiquemos*/
+    content: " | ";
+}
+
+
+
+/*ESTILOS PARA LA CLASE DE EL MODELO DE CAJAJ*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;/*20px de arriba hacia abajo y 35 de derecha a izquierda*/
+}
+
