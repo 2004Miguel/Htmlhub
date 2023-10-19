@@ -1,0 +1,4 @@
+h2 ~ p {/*Combinador general. Se le va a aplicar el estilo a todas las etiquetas p que estén a la misma altura que un h2*/
+    color: red;
+
+}
