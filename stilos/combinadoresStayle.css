@@ -1,0 +1,3 @@
+h2 + p { /*Combinador adyacente. Solo le aplica este estilo a los elementos p que estén inmediatamente después de una etiqueta h2*/
+    color: red;
+}
