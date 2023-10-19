@@ -37,7 +37,7 @@
 }
 
 /*Esto es un SEUDOELEMENTO*/
-.main-nav__item a::after{/*Lo que hace es que después del elemento va a agregar el contenido que le indiquemos*/
+.main-nav__item a::after{/*Lo que hace es que después del elemento en este caso la etiqueta <a> va a agregar el contenido que le indiquemos*/
     content: " | ";
 }
 
