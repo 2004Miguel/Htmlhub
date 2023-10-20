@@ -1,0 +1,7 @@
+/*div > p {Combinador HIjo. La etiqueta P que sea hija directa de una etiqueta div
+    color: red;
+}*/
+
+div p {/*Combiandor descendiente. Todas las etiquetas p que están dentro de una etiqueta div se les va aplicar el estilo. No tiene que estar JUSTO dentro del div, puede tener varios niveles de contención*/
+    color: red;
+}
